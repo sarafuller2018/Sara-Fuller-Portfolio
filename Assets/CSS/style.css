@@ -1,0 +1,128 @@
+:root {
+    --dark-orange: #984f18;
+    --light-orange: #f5d5bc;
+
+}
+
+* {
+    background-color: var(--light-orange);
+    font-family: Calibri, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-size: 75px;
+    color: var(--dark-orange);
+    font-weight: 400;
+}
+
+header img {
+    width: 300px;
+    margin: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--dark-orange);
+}
+
+.center {
+    text-align: center;
+}
+
+header nav {
+    border: solid  var(--dark-orange);
+    padding: 10px;
+}
+.nav-format {
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: var(--dark-orange);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 40px;
+    color: var(--dark-orange);
+    font-weight: 400;
+    margin-left: 0;
+}
+
+.about-me-text {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 25%;
+  }
+
+  .project1 {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 25%;
+  }
+
+  .project2-5 {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 25%;
+  }
+
+  .contactlinks {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 25%;
+  }
+
+  .about-me-sidebar {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 0;
+  }
+
+  .work-samples-sidebar {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 0;
+  }
+
+  .contact-info-sidebar {
+    /* A flex-basis of 200px sets the starting width */
+    /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 0;
+  }
