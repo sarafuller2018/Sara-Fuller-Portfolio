@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,43 +10,73 @@
 </head>
 
 <body>
-    <header class="center">
-        <h1>Sara Fuller</h1>
-        <img src="./Assets/Images/Sara Fuller Headshot.jpg" alt="picture of girl headshot">
-        <nav class="center">
+    <header>
+        <div>
+            <h1>Sara Fuller</h1>
+            <img src="./Assets/Images/Sara Fuller Headshot.jpg" alt="picture of girl headshot">
+        </div>
+
+        <nav>
             <ul>
-                <li class="nav-format"><a href="#About-Me">About Me</a></li>
-                <li class="nav-format"><a href="#Work-Samples">Work Samples</a></li>
+                <li class="nav-format"><a href="AboutMe">About Me</a></li>
+                <li class="nav-format"><a href="WorkSamples">Work Samples</a></li>
                 <li class="nav-format"><a href="#">Resume</a></li>
-                <li class="nav-format"><a href="#Contact-Information">Contact Information</a></li>
+                <li class="nav-format"><a href="ContactInfo">Contact Information</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="about-me-text">
-          <p>About me text words text words etc</p>
+        <section>
+            <h2>About</h2>
+            <div>
+                <p>Hello and welcome! My name is Sara Fuller, and I am a graduate of Texas A&M University. I received a Bachelor of Science in Health with a concentration in School Health. 
+                    I am currently an office assistant at an energy consulting firm in Houston, Texas as well as a student in the Rice Full Stack Web Development Boot Camp. 
+                    I created this portfolio to showcase the work I create with the knowledge I gain throughout the program.
+                    I hope you enjoy getting a small glimpse into my brain! </p>
+            </div>
         </section>
-        <section class="project1">
-            <p>work examples</p>
-        </section>
-        <section class="project2-5">
-          <p>4 smaller work examples</p>
-        </section>
-        <section class="contactlinks">
-          <p>contact links</p>
-        </section>
-      </main>
 
-    <aside>
-        <ul>
-            <h2><li id="About-Me" class="about-me-sidebar">About Me</li></h2>
-            <h2><li id="Work-Samples" class="work-samples-sidebar">Work Samples</li></h2>
-            <h2><li id="Contact-Information" class="contact-info-sidebar">Contact Information</li></h2>
-        </ul>
-    </aside>
+        <section>
+            <h2>Work Samples</h2>
+            <div class="workexamples">
+                <article class="card-CSS-Cheatsheet">
+                    <h2>CSS Cheatsheet</h2>
+                </article>
 
-    <footer></footer>
-    
+                <artcile class="card">
+                    <h2>Horiseon Marketing Capabilities</h2>
+                </artcile>
+
+                <article class="card">
+                    <h2>My New Website - Coming Soon!</h2>
+                </article>
+
+                <article class="card">
+                    <h2>Boot Camp Prework Study Guide</h2>
+                </article>
+
+                <article class="card">
+                    <h2>Sara Fuller Portfolio</h2>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <div>
+                <ul class="contact-me">
+                    <li><a href="mailto:sarafuller2018@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/sarafuller2018">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/sara-fuller/">Linkedin</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Thank you for visiting my site!</h3>
+    </footer>
+
 </body>
 </html>
