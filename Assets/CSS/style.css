@@ -107,7 +107,7 @@ section div {
   margin: 10px;
   padding: 100px;
   justify-content: flex-end;
-  background-image: url(/Assets/Images/image\ 1.jpg);
+  background-image: url(/Assets/Images/image1.jpg);
 }
 
 .card-CSS-Cheatsheet:hover {
@@ -127,7 +127,7 @@ section div {
   border: solid var(--dark-orange);
   margin: 5px;
   padding: 50px;
-  background-image: url(/Assets/Images/image\ 1.jpg);
+  background-image: url(/Assets/Images/image1.jpg);
 }
 
 .card:hover {

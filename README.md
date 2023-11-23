@@ -1,6 +1,6 @@
 # Sara-Fuller-Portfolio
 
---add link here to deployed site
+https://sarafuller2018.github.io/Sara-Fuller-Portfolio/ 
 
 ## Description
 
