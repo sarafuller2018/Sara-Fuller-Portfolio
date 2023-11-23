@@ -107,7 +107,7 @@ section div {
   margin: 10px;
   padding: 100px;
   justify-content: flex-end;
-  background-image: url(https://media.istockphoto.com/id/1312476362/vector/aesthetic-minimalist-boho-seamless-pattern-with-hand-drawn-dashes-in-mid-century-style-in-an.jpg?s=612x612&w=0&k=20&c=12_Hg1_8AEr7QuGq2wa6WhRrdjVkY3K-XF9VahXSVyo=);
+  background-image: url(/Assets/Images/istockphoto-1312476362-612x612.jpg);
 }
 
 .card-CSS-Cheatsheet:hover {
@@ -127,7 +127,7 @@ section div {
   border: solid var(--dark-orange);
   margin: 5px;
   padding: 50px;
-  background-image: url(https://media.istockphoto.com/id/1312476362/vector/aesthetic-minimalist-boho-seamless-pattern-with-hand-drawn-dashes-in-mid-century-style-in-an.jpg?s=612x612&w=0&k=20&c=12_Hg1_8AEr7QuGq2wa6WhRrdjVkY3K-XF9VahXSVyo=);
+  background-image: url(/Assets/Images/istockphoto-1312476362-612x612.jpg);
 }
 
 .card:hover {

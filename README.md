@@ -1,6 +1,4 @@
-# Sara-Fuller-Portfolio
-
-https://sarafuller2018.github.io/Sara-Fuller-Portfolio/ 
+# Sara-Fuller-Portfolio 
 
 ## Description
 
