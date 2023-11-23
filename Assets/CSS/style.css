@@ -45,17 +45,20 @@ header nav {
   padding: 10px;
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .nav-format {
-    display: inline;
-    margin-left: 100px;
-    margin-right: 100px;
     color: var(--dark-orange);
     font-weight: 500;
     font-size: 24px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: var(--dark-orange);
     font-weight: 200;
     margin-left: 0;
@@ -63,7 +66,7 @@ h2 {
     background: none;
 }
 
-section {
+main section {
   display: flex;
   flex-wrap: wrap;
 }
@@ -105,18 +108,24 @@ section div {
   padding: 100px;
   justify-content: flex-end;
   background-image: url(/Assets/Images/image\ 1.jpg);
-  height: 25%;
 }
 
 .card-CSS-Cheatsheet:hover {
   box-shadow: inset 0px 0px 8px rgb(236, 173, 102), 0 0 15px rgb(236, 173, 102);
 }
 
+.smallclasscards{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+  flex-direction: row;
+}
+
 .card {
   display: flex;
   flex: 1 0 20%;
   border: solid var(--dark-orange);
-  margin: 10px;
+  margin: 5px;
   padding: 50px;
   background-image: url(/Assets/Images/image\ 1.jpg);
 }
@@ -151,16 +160,17 @@ footer h3 {
 }
 
 @media screen and (max-width: 992px) {
-  section div { 
-    flex: 0 0 100%;
-    padding: 2%;
+  nav ul {
+    display: block;
+    text-align: center;
+    line-height: 1.1;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .nav-format {
-    display: block;
-    text-align: center;
-    line-height: 1.1;
+  section div { 
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    padding: 2%;
   }
 }
