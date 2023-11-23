@@ -107,7 +107,7 @@ section div {
   margin: 10px;
   padding: 100px;
   justify-content: flex-end;
-  background-image: url(/Assets/Images/istockphoto-1312476362-612x612.jpg);
+  background-image: url(../Images/istockphoto-1312476362-612x612.jpg);
 }
 
 .card-CSS-Cheatsheet:hover {
@@ -127,7 +127,7 @@ section div {
   border: solid var(--dark-orange);
   margin: 5px;
   padding: 50px;
-  background-image: url(/Assets/Images/istockphoto-1312476362-612x612.jpg);
+  background-image: url(../Images/istockphoto-1312476362-612x612.jpg);
 }
 
 .card:hover {
