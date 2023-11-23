@@ -16,7 +16,7 @@ Each section of the webpage contains information useful to future employers abou
 
 ## Credits
 
-N/A
+Work Samples background photo -- (https://www.istockphoto.com/photos/boho)
 
 ## License
 
